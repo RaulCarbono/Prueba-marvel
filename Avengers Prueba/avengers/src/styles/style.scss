@@ -1,0 +1,37 @@
+@import "./colors";
+
+.app-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.all-container {
+    top: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+.container {
+    top: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+.personajes-container{
+    top: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+.container-image { 
+    border-radius: 20px;
+    background-color: red;
+}
+.title {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
