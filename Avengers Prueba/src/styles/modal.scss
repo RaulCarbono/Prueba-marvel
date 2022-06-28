@@ -1,5 +1,5 @@
 .modal{
-    display: block; 
+  display: block; 
   position: fixed; 
   z-index: 1; 
   padding-top: 100px; 
@@ -12,14 +12,15 @@
   background-color: rgba(0,0,0,0.4); 
   justify-content: center;
   align-items: center;
+  margin: 2;
 
     .modal-container{
+        display: flex;
         background-color: #0a0a0a;
         margin: auto;
         padding: 20px;
         border: 1px solid rgb(0, 0, 0);
-        width: 50%;
-        
+        width: 50%;  
         
     }
     
@@ -29,10 +30,15 @@
         right: 1rem;
     }
     .container-image{
-        display: grid;
+        display: flex;
         align-items: center;
         justify-content: center;
 }
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
 }
 
 
