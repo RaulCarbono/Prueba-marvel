@@ -1,5 +1,3 @@
-@import "./colors";
-
 body{
     background-color:rgba(17, 15, 29, 0.712);
     color: aliceblue;
@@ -20,7 +18,7 @@ body{
     width: 200px;
     height: 350px;
     border-radius: 20px;
-    background: linear-gradient(to bottom, red, white);
+    
     
 }
 .container {
@@ -56,7 +54,7 @@ body{
 }
 .container-image { 
     border-radius: 20px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
 .title {
     display:flex;
