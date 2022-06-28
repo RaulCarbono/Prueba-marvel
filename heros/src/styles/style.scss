@@ -1,0 +1,62 @@
+body{
+    background: radial-gradient(circle, #04026e, #22c1c3);  
+}
+.app-container{
+    display: grid;
+    flex-grow: 4;
+    justify-content: center;
+    text-align: center;
+    z-index: 1px;
+}
+.all-container {
+    order: 4;
+    gap: 10px;
+    display: grid;
+    top: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    
+    
+}
+.container {
+    top: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 335px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #000046, #1cb5e0); 
+    box-shadow: rgba(238, 233, 233, 0.507) 0px 54px 55px;    
+}
+
+ img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.personajes-container{
+    justify-content: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.container-image { 
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.title {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
