@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from "react";
 import { allAvengers } from "../functions/function";
 import Personajes from './Personajes'
-import Modal from "./Modal";
-
 
 const Inicio =  () => {
     const [personajes, setPersonajes] = useState(null)
@@ -23,7 +21,6 @@ const Inicio =  () => {
 
                     ))}
             </div>
-            {/*<Modal />*/}
         </div>
         </>
     )

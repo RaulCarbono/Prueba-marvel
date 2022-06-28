@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/modal.scss'
-const Modal = ({ data, open, setOpen}) => { 
-    
+const Modal = ({ data, open, setOpen}) => {
   return (
     open &&
     <article className='modal'>
