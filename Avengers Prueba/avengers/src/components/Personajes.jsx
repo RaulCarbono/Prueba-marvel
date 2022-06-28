@@ -5,14 +5,9 @@ import '../styles/style.scss'
 const Personajes = (props) => {
     
     return (
-        
-        <div className='container'>
-            <h1>{props.data.name}</h1>
-            <div>
-            <img src={`${props.data.thumbnail.path}.jpg`} alt="" width={250} height={250} />
-            </div>
-        </div>
-        
+          <div className="container" onClick={() => localStorage.getItem("datos")}>
+            <img src={`${props.data.thumbnail.path}.jpg`} alt="" />
+         </div>
     )
 }
 
